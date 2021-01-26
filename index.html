@@ -7,7 +7,25 @@
     <title>Meal Finder</title>
 </head>
 <body>
-    <h1>Meal Finder</h1>
+
+    <div class="container">
+        <h1>Meal Finder</h1>
+        
+        <div class="flex">
+            <form class="flex" id="submit">
+                <input type="text" id="search" placeholder="Search for meals of keywords">
+                <button class="search-btn" type="submit">Search</button>
+            </form>
+            <button class="random-btn" id="random">Random</button>
+        </div>
+        
+        <div id="result-heading"></div>
+        <div id="meals" class="meals"></div>
+        <div id="single-meal"></div>
+    
+    </div>
+
+    
 
     <script src="script.js"></script>
 </body>
